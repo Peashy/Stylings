@@ -1,0 +1,80 @@
+/*Glass theme for discord by Peashy GPL-3.0*/
+
+.app {
+    background-image: url("https://i.imgur.com/PrRqkOC.jpg");
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.connecting {
+    background-image: url("https://i.imgur.com/PrRqkOC.jpg");
+    background-blend-mode: soft-light;
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.theme-dark .layer, .theme-dark .layers
+{
+ background: transparent !important;
+ border-bottom: none;
+ border-top: none;
+ box-shadow: none;
+ opacity: 1;
+}
+
+/* Main Transparency*/
+#friends,
+#friends .btn,
+.friends-header,
+.friends-table,
+.channels-wrap,
+.guild-channels,
+.guilds,
+.links,
+.chat,
+.messages-wrapper,
+.content,
+.chat-empty,
+.layers,
+.message-group-blocked,
+.private-channels,
+.guild-header header,
+.chat,
+.chat form,
+.channel-members,
+.vertical-3X17r5,
+.container-2OU7Cz
+{
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.connecting video.ready {
+    display: none;
+}
+
+.guilds-wrapper {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.search-bar {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.guilds-wrapper .guilds .friends-icon {
+
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.headerBar-cxbhPD {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.title-qAcLxz {
+    background: rgba(0, 0, 0, 0.45) !important;
+
+}
